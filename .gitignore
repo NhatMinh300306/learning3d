@@ -1,0 +1,21 @@
+# Cache của Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+miniconda3/
+
+# Dataset và Checkpoint lớn (tránh vượt ngưỡng 100MB của GitHub)
+*.zip
+*.tar.gz
+*.pth
+*.pt
+*.bin
+*.npz
+data/
+datasets/
+shapenet/
