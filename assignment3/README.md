@@ -1,6 +1,5 @@
-# Tóm tắt quá trình học NeRF — Assignment 3 (Volume Rendering & Surface Rendering)
-
-Tài liệu này ghi lại toàn bộ pipeline mình đã implement, dựa trên README gốc của assignment, nhưng diễn giải lại theo đúng thứ tự tư duy: **từ 1 bức ảnh thô → ra được 1 scene 3D có thể render lại được**.
+# Tóm tắt quá trình học NeRF — Assignment 3 
+Kết quả khi chạy được để trong images
 
 ---
 
