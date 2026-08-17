@@ -70,7 +70,7 @@ Với `N_pts` cặp (density, color) dọc mỗi tia, cần "nén" lại thành 
 
 **Transmittance**: xác suất tia sáng chiếu từ origin đến điểm thử i mà không bị chặn lại bởi bất kì điểm nào trước nó. Nếu tia sáng đi qua vùng không gian trống (mật độ $\sigma_j \approx 0$), transmittance sẽ dần về 1. Ngược lại, nếu đi qua vật thể đặc (mật độ $\sigma_j \approx 1$), transmittance sẽ dần về 0. Điều này giúp đảm bảo vật thể nằm sau vật thể đặc sẽ bị che khuất, không đóng góp màu sắc vào pixel cuối cùng.
 
-$$T_i = \exp\left(-\sum_{j<i} \sigma_j \delta_j\right)$$
+$$T_i = \exp\left(-\sum_{j=1}^{i-1} \sigma_j \delta_j\right)$$
 
 **Trọng số của từng điểm:** 
 
