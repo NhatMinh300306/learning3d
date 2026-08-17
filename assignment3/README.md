@@ -80,8 +80,6 @@ $$w_i = T_i \cdot \left(1 - e^{-\sigma_i \delta_i}\right)$$
 
 $$C = \sum_i w_i \cdot c_i \qquad D = \sum_i w_i \cdot z_i$$
 
- 
-
 ### Bước 6 — Loss và tối ưu (Q2.2 / Q3.1)
 
 Vì **toàn bộ pipeline từ Bước 1 đến Bước 5 đều khả vi (differentiable)**, gradient có thể lan truyền ngược từ "màu render sai bao nhiêu" tới tận trọng số của MLP (Q3) hoặc tham số hình học (Q2) — đây là "phép màu" cốt lõi của differentiable rendering.
